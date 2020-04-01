@@ -15,11 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from . import views
+from . import api, views
 
 urlpatterns = [
     path('', views.home, name='home'),
     path('process', views.process, name='process'),
+    path('api/process', api.process),
     path('admin/', admin.site.urls),
     path('o/', include('oauth2_provider.urls', namespace='oauth2_provider')),
 ]
