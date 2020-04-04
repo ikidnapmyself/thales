@@ -9,3 +9,6 @@ source venv/bin/activate
 ```
 pip install -r requirements.txt
 ```
+```
+cp thales/secret_key.txt.example  thales/secret_key.txt
+```

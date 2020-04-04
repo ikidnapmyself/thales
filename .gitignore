@@ -1,3 +1,4 @@
 .idea
 venv
 thales/db.sqlite3
+thales/secret_key.txt
