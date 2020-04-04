@@ -1,14 +1,26 @@
 # Thales NPL API Server
 
+Generate virtual environment
 ```
-python3 -m venv venv
+$ python3 -m venv ./venv
 ```
+
+Activate virtual environment
 ```
-source venv/bin/activate
+$ source venv/bin/activate
 ```
+
+Install required dependencies
 ```
-pip install -r requirements.txt
+$ (venv) pip install -r requirements.txt
 ```
+
+Generate secret key file 
 ```
-cp thales/secret_key.txt.example  thales/secret_key.txt
+$ (venv) cp thales/secret_key.txt.example  thales/secret_key.txt
+```
+
+Migrate project
+```
+$ (venv) python manage.py migrate
 ```

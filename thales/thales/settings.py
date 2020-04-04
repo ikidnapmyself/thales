@@ -26,7 +26,7 @@ with open('secret_key.txt') as f:
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['thales.ikindapmyself.com']
+ALLOWED_HOSTS = ['thales.ikidnapmyself.com']
 
 
 # Application definition
