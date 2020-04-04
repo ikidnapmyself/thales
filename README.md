@@ -24,3 +24,8 @@ Migrate project
 ```
 $ (venv) python manage.py migrate
 ```
+
+Create a super user to define API clients
+```
+$ (venv) python manage.py createsuperuser
+```
